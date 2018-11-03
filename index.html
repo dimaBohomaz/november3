@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div{
+			width:150px;
+			height:150px;
+			border:5px dotted blue;
+			text-align:center;
+			font-size:1.5em;
+			line-height:150px;
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	  <div>i am the div</div>
+	  <script>
+      let square = document.querySelector('div');
+	  	square.onclick = function() {this.style.width = '250px'}
+	  </script>
+</body>
+</html>
