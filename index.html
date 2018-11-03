@@ -16,10 +16,15 @@
 	</style>
 </head>
 <body>
+	  <h3>dotted square</h3>
 	  <div>i am the div</div>
 	  <script>
       let square = document.querySelector('div');
-	  	square.onclick = function() {this.style.width = '250px'}
+	  	square.onclick = function() {
+	  		this.style.width = '250px';
+	  		this.style.fontSize = '2.5em';
+	  		this.style.background = 'lightblue';
+	  }
 	  </script>
 </body>
 </html>
