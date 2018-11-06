@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-		div{
+		.square{
 			width:150px;
 			height:150px;
 			border:5px dotted blue;
@@ -17,7 +17,14 @@
 </head>
 <body>
 	  <h3>dotted square</h3>
-	  <div>i am the div</div>
+	  <div class = 'square'>i am the div</div>
+	  <div>
+	  	 <ul>
+	  	 	  <li>one</li>
+	  	 	  <li>two</li>
+	  	 	  <li>three</li>
+	  	 </ul>
+	  </div>
 	  <script>
       let square = document.querySelector('div');
 	  	square.onclick = function() {
